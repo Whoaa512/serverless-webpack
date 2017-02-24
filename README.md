@@ -131,6 +131,16 @@ functions:
               - OPTIONS
 ```
 
+### Include *.map files
+
+By default this plugin excludes `.map` files from the result zip. If you would like them included
+add the following to your `serverless.yml`
+
+```yaml
+custom:
+  webpackIncludeMaps: true
+```
+
 ## Usage
 
 ### Automatic bundling
